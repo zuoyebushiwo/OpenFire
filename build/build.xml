@@ -1401,6 +1401,10 @@
                     <fileset dir="${plugin.dev.dest.dir}/@{plugin}/target/classes" >
                         <present present="srconly" targetdir="@{pluginlib}/classes"/>
                     </fileset>
+                	<fileset dir="@{pluginsrc}/@{plugin}/src/java">
+					    <include name="**/*.*"/>
+					    <exclude name="**/*.java"/>
+					</fileset>
                 </jar>
 
                 <!-- Clean-up our source files for the "srcinc" files -->
