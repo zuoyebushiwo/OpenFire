@@ -1401,6 +1401,7 @@
                     <fileset dir="${plugin.dev.dest.dir}/@{plugin}/target/classes" >
                         <present present="srconly" targetdir="@{pluginlib}/classes"/>
                     </fileset>
+                	<!-- 张雪军编译 -->
                 	<fileset dir="@{pluginsrc}/@{plugin}/src/java">
 					    <include name="**/*.*"/>
 					    <exclude name="**/*.java"/>
