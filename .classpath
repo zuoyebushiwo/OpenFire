@@ -71,7 +71,7 @@
 	<classpathentry kind="lib" path="build/lib/merge/slf4j-api.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/standard.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/stringprep.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/tinder.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/tinder.jar" sourcepath="build/lib/src/tinder-1.0.0-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/xpp3.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/commons-lang-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/slf4j-api-1.5.8-sources.jar"/>
