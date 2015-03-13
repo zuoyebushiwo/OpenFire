@@ -59,10 +59,10 @@
 	<classpathentry kind="lib" path="build/lib/merge/jzlib.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/libidn.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/log4j.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/mina-core.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/mina-filter-compression.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/mina-filter-ssl.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/mina-integration-jmx.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-core.jar" sourcepath="build/lib/src/mina-core-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-filter-compression.jar" sourcepath="build/lib/src/mina-filter-compression-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-filter-ssl.jar" sourcepath="build/lib/src/mina-filter-ssl-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-integration-jmx.jar" sourcepath="build/lib/src/mina-integration-jmx-1.1.7-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/proxool.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/rome-fetcher.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/rome.jar"/>
@@ -74,11 +74,6 @@
 	<classpathentry kind="lib" path="build/lib/merge/tinder.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/xpp3.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/commons-lang-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/mina-core-1.1.7-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/mina-filter-compression-1.1.7-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/mina-filter-ssl-1.1.7-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/mina-filter-ssl-1.1.8-SNAPSHOT-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/mina-integration-jmx-1.1.7-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/slf4j-api-1.5.8-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/slf4j-log4j12-1.5.8-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
