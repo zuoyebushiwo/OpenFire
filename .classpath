@@ -31,7 +31,7 @@
 	<classpathentry kind="lib" path="build/lib/dist/mail.jar"/>
 	<classpathentry kind="lib" path="build/lib/dist/mysql.jar"/>
 	<classpathentry kind="lib" path="build/lib/dist/postgres.jar"/>
-	<classpathentry kind="lib" path="build/lib/dist/servlet.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/servlet.jar" sourcepath="E:/WorkSpace/company/第一企信框架源码目录收集/servlet-api-2.5-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/dist/slf4j-log4j12.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/commons-codec.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/commons-httpclient.jar"/>
@@ -39,7 +39,7 @@
 	<classpathentry kind="lib" path="build/lib/merge/commons-logging.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/concurrentlinkedhashmap-lru-1.0_jdk5.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/dbutil.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/dom4j.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/dom4j.jar" sourcepath="C:/Users/Administrator/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jaxen.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jdom.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jetty-continuation.jar"/>
