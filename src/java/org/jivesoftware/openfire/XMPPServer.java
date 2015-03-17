@@ -97,6 +97,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xmpp.packet.JID;
 
+import com.test.plugin.iqhandle.TestIQHandle;
+
 /**
  * The main XMPP server that will load, initialize and start all the server's
  * modules. The server is unique in the JVM and could be obtained by using the
@@ -559,10 +561,12 @@ public class XMPPServer {
         loadModule(MultiUserChatManager.class.getName());
         loadModule(ClearspaceManager.class.getName());
         loadModule(IQMessageCarbonsHandler.class.getName());
+        loadModule(TestIQHandle.class.getName());
 
         // Load this module always last since we don't want to start listening for clients
         // before the rest of the modules have been started
         loadModule(ConnectionManagerImpl.class.getName());
+        
         // Keep a reference to the internal component manager
         componentManager = getComponentManager();
     }
