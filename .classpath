@@ -76,5 +76,6 @@
 	<classpathentry kind="lib" path="build/lib/src/commons-lang-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/slf4j-api-1.5.8-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/slf4j-log4j12-1.5.8-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
