@@ -10,6 +10,7 @@
 		<servlet-class>com.test.plugin.test.TestServlet</servlet-class>
 	</servlet>
 
+
 	<servlet-mapping>
 		<servlet-name>SampleServlet</servlet-name>
 		<url-pattern>/servlet</url-pattern>

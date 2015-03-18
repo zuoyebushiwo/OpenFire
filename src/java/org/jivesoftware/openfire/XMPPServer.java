@@ -63,7 +63,25 @@ import org.jivesoftware.openfire.disco.UserItemsProvider;
 import org.jivesoftware.openfire.filetransfer.DefaultFileTransferManager;
 import org.jivesoftware.openfire.filetransfer.FileTransferManager;
 import org.jivesoftware.openfire.filetransfer.proxy.FileTransferProxy;
-import org.jivesoftware.openfire.handler.*;
+import org.jivesoftware.openfire.handler.IQAuthHandler;
+import org.jivesoftware.openfire.handler.IQBindHandler;
+import org.jivesoftware.openfire.handler.IQEntityTimeHandler;
+import org.jivesoftware.openfire.handler.IQHandler;
+import org.jivesoftware.openfire.handler.IQLastActivityHandler;
+import org.jivesoftware.openfire.handler.IQMessageCarbonsHandler;
+import org.jivesoftware.openfire.handler.IQOfflineMessagesHandler;
+import org.jivesoftware.openfire.handler.IQPingHandler;
+import org.jivesoftware.openfire.handler.IQPrivacyHandler;
+import org.jivesoftware.openfire.handler.IQPrivateHandler;
+import org.jivesoftware.openfire.handler.IQRegisterHandler;
+import org.jivesoftware.openfire.handler.IQRosterHandler;
+import org.jivesoftware.openfire.handler.IQSessionEstablishmentHandler;
+import org.jivesoftware.openfire.handler.IQSharedGroupHandler;
+import org.jivesoftware.openfire.handler.IQTimeHandler;
+import org.jivesoftware.openfire.handler.IQVersionHandler;
+import org.jivesoftware.openfire.handler.IQvCardHandler;
+import org.jivesoftware.openfire.handler.PresenceSubscribeHandler;
+import org.jivesoftware.openfire.handler.PresenceUpdateHandler;
 import org.jivesoftware.openfire.lockout.LockOutManager;
 import org.jivesoftware.openfire.mediaproxy.MediaProxyService;
 import org.jivesoftware.openfire.muc.MultiUserChatManager;
@@ -96,8 +114,6 @@ import org.jivesoftware.util.cache.CacheFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xmpp.packet.JID;
-
-import com.test.plugin.iqhandle.TestIQHandle;
 
 /**
  * The main XMPP server that will load, initialize and start all the server's
@@ -561,8 +577,7 @@ public class XMPPServer {
         loadModule(MultiUserChatManager.class.getName());
         loadModule(ClearspaceManager.class.getName());
         loadModule(IQMessageCarbonsHandler.class.getName());
-        loadModule(TestIQHandle.class.getName());
-
+//        loadModule(TestIQHandle.class.getName());
         // Load this module always last since we don't want to start listening for clients
         // before the rest of the modules have been started
         loadModule(ConnectionManagerImpl.class.getName());
