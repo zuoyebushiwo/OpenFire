@@ -4,7 +4,7 @@
     <class>com.httpservice.plugin.HttpServicePlugin</class>
  
     <!-- Plugin meta-data -->
-    <name>HttpServicePlugin</name>
+    <name>Http Service</name>
     <description>This is the my HttpServicePlugin plugin.</description>
     <author>ldx</author>
  

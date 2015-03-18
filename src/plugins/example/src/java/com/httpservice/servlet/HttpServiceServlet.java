@@ -45,8 +45,8 @@ public class HttpServiceServlet extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
 		plugin = (HttpServicePlugin) XMPPServer.getInstance()
-				.getPluginManager().getPlugin("httpedu");
-		AuthCheckFilter.addExclude("httpedu/httpservice");
+				.getPluginManager().getPlugin("example");
+		AuthCheckFilter.addExclude("example/httpservice");
 
 		if (null == routingTable)
 			routingTable = XMPPServer.getInstance().getRoutingTable();

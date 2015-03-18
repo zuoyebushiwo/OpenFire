@@ -45,7 +45,7 @@ public class MyThread extends Thread {
 	}
 
 	public void testPost(JSONObject json) throws IOException, JSONException {
-		URL url = new URL("http://127.0.0.1:9090/plugins/httpedu/httpservice");
+		URL url = new URL("http://127.0.0.1:9090/plugins/example/httpservice");
 		URLConnection connection = url.openConnection();
 		connection.setDoOutput(true);
 		OutputStreamWriter out = new OutputStreamWriter(
