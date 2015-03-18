@@ -14,7 +14,6 @@ import org.jivesoftware.admin.AuthCheckFilter;
 import org.jivesoftware.openfire.RoutingTable;
 import org.jivesoftware.openfire.XMPPServer;
 import org.jivesoftware.util.Log;
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParserFactory;
 
