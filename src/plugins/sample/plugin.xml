@@ -23,10 +23,6 @@
 					name="testPlugin"
 					url="test-plugin.jsp"
 					description="Edit subscription plugin properties" />                  
-				<item id="http-service" name="Http Service"
-					url="http-service.jsp"
-					description="The message center services and A short letter
-					to push" />   
             </sidebar>
         </tab>
     </adminconsole>
