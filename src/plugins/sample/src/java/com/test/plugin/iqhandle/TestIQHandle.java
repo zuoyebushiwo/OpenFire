@@ -8,7 +8,7 @@ import org.xmpp.packet.IQ;
 import org.xmpp.packet.PacketError;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class TestIQHandle extends IQHandler {

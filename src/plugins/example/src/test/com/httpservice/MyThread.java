@@ -12,7 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月18日
  */
 public class MyThread extends Thread {

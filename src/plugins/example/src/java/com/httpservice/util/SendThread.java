@@ -26,7 +26,7 @@ import com.httpservice.enity.SmsEnity;
 import com.httpservice.plugin.HttpServicePlugin;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class SendThread {

@@ -3,7 +3,7 @@ package com.httpservice.util;
 import java.util.LinkedList;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class ThreadPool extends ThreadGroup {

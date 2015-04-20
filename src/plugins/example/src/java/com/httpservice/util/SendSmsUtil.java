@@ -20,7 +20,7 @@ import org.xmpp.packet.Message;
 import com.httpservice.enity.SmsEnity;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class SendSmsUtil {

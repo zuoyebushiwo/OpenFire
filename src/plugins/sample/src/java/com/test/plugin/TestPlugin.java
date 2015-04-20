@@ -12,7 +12,7 @@ import org.jivesoftware.util.PropertyEventListener;
 import com.test.plugin.iqhandle.TestIQHandle;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class TestPlugin implements Plugin, PropertyEventListener {

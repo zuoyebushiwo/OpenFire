@@ -22,7 +22,7 @@ import com.httpservice.util.SendMessageUtil;
 import com.httpservice.util.ThreadPool;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class HttpServiceServlet extends HttpServlet {

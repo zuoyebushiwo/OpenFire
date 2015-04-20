@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.jivesoftware.admin.AuthCheckFilter;
 
 /**
- * @author ZhangXueJun
+ * @author ZuoYe
  * @date 2015年3月17日
  */
 public class TestServlet extends HttpServlet {
