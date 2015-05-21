@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>HttpServiceServlet</servlet-name>
+		<servlet-class>
+			com.httpservice.servlet.HttpServiceServlet
+		</servlet-class>
+	</servlet>
+	<!-- Servlet mappings -->
+	<servlet-mapping>
+		<servlet-name>HttpServiceServlet</servlet-name>
+		<url-pattern>/httpservice</url-pattern>
+	</servlet-mapping>
+</web-app>

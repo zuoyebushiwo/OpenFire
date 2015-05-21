@@ -128,7 +128,7 @@
     <property name="copy.dbscripts" value="true"/>
     <property name="overwrite" value="true"/>
 
-    <property name="installer.install4j.home" value="/home/j2ee-bamboo/install4j.5.1.11"/>
+    <property name="installer.install4j.home" value="D:/Program Files (x86)/install4j5"/>
     <property name="installer.src" value="${basedir}/build/installer"/>
     <property name="installer.dest.dir" value="${release.dest.dir}"/>
     <property name="installer.install4j.srcfile" value="${installer.src}/openfire.install4j"/>
@@ -1401,6 +1401,11 @@
                     <fileset dir="${plugin.dev.dest.dir}/@{plugin}/target/classes" >
                         <present present="srconly" targetdir="@{pluginlib}/classes"/>
                     </fileset>
+                	<!-- 张雪军编译 -->
+                	<fileset dir="@{pluginsrc}/@{plugin}/src/java">
+					    <include name="**/*.*"/>
+					    <exclude name="**/*.java"/>
+					</fileset>
                 </jar>
 
                 <!-- Clean-up our source files for the "srcinc" files -->

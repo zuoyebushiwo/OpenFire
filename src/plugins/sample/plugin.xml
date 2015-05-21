@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <!-- Main plugin class  这里是最重要滴，就是你的插件的全路径-->
+    <class>com.hoo.server.plugin.SamplePlugin</class>
+ 
+    <!-- Plugin meta-data -->
+    <name>SimplePlugin</name>
+    <description>This is the my sample plugin.</description>
+    <author>ldx</author>
+ 
+    <version>1.0</version>
+    <date>29/07/2014</date>
+    <url>http://localhost:9090/openfire/plugins.jsp</url>
+    <minServerVersion>3.4.1</minServerVersion>
+    <licenseType>gpl</licenseType>
+ 
+    <adminconsole>    
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+                <item id="sample-service" name="Sample Service" url="sample-service.jsp"
+                     description="Click is trigger sample plugin" />
+				<item id="test_plugin"
+					name="testPlugin"
+					url="test-plugin.jsp"
+					description="Edit subscription plugin properties" />                  
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>

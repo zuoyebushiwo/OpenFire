@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <!-- Main plugin class  这里是最重要滴，就是你的插件的全路径-->
+    <class>com.httpservice.plugin.HttpServicePlugin</class>
+ 
+    <!-- Plugin meta-data -->
+    <name>Http Service</name>
+    <description>This is the my HttpServicePlugin plugin.</description>
+    <author>ldx</author>
+ 
+    <version>1.0</version>
+    <date>29/07/2014</date>
+    <url>http://localhost:9090/openfire/plugins.jsp</url>
+    <minServerVersion>3.4.1</minServerVersion>
+    <licenseType>gpl</licenseType>
+ 
+    <adminconsole>    
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+				<item id="http-service" name="Http Service"
+					url="http-service.jsp"
+					description="The message center services and A short letter
+					to push" />   
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>
