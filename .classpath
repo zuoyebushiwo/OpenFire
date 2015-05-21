@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="src" path="src/resources/jar"/>
+	<classpathentry kind="src" path="src/i18n"/>
+	<classpathentry kind="src" path="build/lib/dist"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="build/lib/ant-contrib.jar"/>
 	<classpathentry kind="lib" path="build/lib/ant-jive-edition.jar"/>
@@ -58,7 +61,7 @@
 	<classpathentry kind="lib" path="build/lib/merge/jzlib.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/libidn.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/log4j.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/mina-core.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-core.jar" sourcepath="build/lib/src/mina-core-1.1.7-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/mina-filter-compression.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/mina-filter-ssl.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/mina-integration-jmx.jar"/>
